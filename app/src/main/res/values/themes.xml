@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">@color/colorTextOther</item>
+        <item name="android:editTextColor">@color/colorTextOther</item>
+        <item name="android:textColorHint">@color/colorTextOther</item>
+        <item name="android:searchHintIcon">@color/colorTextOther</item>
+        <item name="android:searchIcon">@color/colorThemeExtra</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+</resources>
